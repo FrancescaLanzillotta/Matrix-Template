@@ -1,0 +1,1 @@
+-IC:/Users/Francesca/CLionProjects/Lab_Prog/test/lib/googletest/googlemock/include -IC:/Users/Francesca/CLionProjects/Lab_Prog/test/lib/googletest/googlemock -isystem C:/Users/Francesca/CLionProjects/Lab_Prog/test/lib/googletest/googletest/include -isystem C:/Users/Francesca/CLionProjects/Lab_Prog/test/lib/googletest/googletest 

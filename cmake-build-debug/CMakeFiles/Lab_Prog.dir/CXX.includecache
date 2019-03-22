@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Francesca/CLionProjects/Template Matrix/TemplateMatrix.h
+ostream
+-
+exception
+-
+
+C:/Users/Francesca/CLionProjects/Template Matrix/main.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+cmath
+-
+TemplateMatrix.h
+C:/Users/Francesca/CLionProjects/Template Matrix/TemplateMatrix.h
+

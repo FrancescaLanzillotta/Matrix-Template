@@ -1,0 +1,11 @@
+C:/Users/Francesca/CLionProjects/Template Matrix/cmake-build-debug/CMakeFiles/Lab_Prog.dir
+C:/Users/Francesca/CLionProjects/Template Matrix/cmake-build-debug/CMakeFiles/core.dir
+C:/Users/Francesca/CLionProjects/Template Matrix/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Francesca/CLionProjects/Template Matrix/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Francesca/CLionProjects/Template Matrix/cmake-build-debug/test/CMakeFiles/runTemplateMatrixTests.dir
+C:/Users/Francesca/CLionProjects/Template Matrix/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+C:/Users/Francesca/CLionProjects/Template Matrix/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+C:/Users/Francesca/CLionProjects/Template Matrix/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir
+C:/Users/Francesca/CLionProjects/Template Matrix/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest_main.dir
+C:/Users/Francesca/CLionProjects/Template Matrix/cmake-build-debug/test/lib/googletest/CMakeFiles/edit_cache.dir
+C:/Users/Francesca/CLionProjects/Template Matrix/cmake-build-debug/test/lib/googletest/CMakeFiles/rebuild_cache.dir

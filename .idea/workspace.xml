@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Lab_Prog" targetName="Lab_Prog" />
+      <config projectName="Lab_Prog" targetName="runTemplateMatrixTests" />
+      <config projectName="Lab_Prog" targetName="core" />
+      <config projectName="Lab_Prog" targetName="gtest" />
+      <config projectName="Lab_Prog" targetName="gtest_main" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bce5f54a-85f4-42ac-bc2f-f81dff481b43" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="Lab_Prog" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TemplateMatrix.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TemplateMatrix.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#69#87#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateMatrixFixture.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/TemplateMatrixFixture.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateMatrixTest.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/TemplateMatrixTest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="980">
+              <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Matrix.h" />
+        <option value="$PROJECT_DIR$/TemplateMatrix.cpp" />
+        <option value="$PROJECT_DIR$/Matrix.cpp" />
+        <option value="$PROJECT_DIR$/test/lib/googletest/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/test/runAllTests.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/../Matrix/Matrix.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/test/TemplateMatrixFixture.cpp" />
+        <option value="$PROJECT_DIR$/test/TemplateMatrixTest.cpp" />
+        <option value="$PROJECT_DIR$/TemplateMatrix.h" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lab_Prog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab_Prog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab_Prog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab_Prog" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="TODO_SCOPE" value="Selected Files" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Matrix" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.splitter.proportion" value="0.21259843" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Google Test.UtilitiesTests.productException">
+    <configuration name="TemplateMatrixSuite.extractColumn" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_Prog" TARGET_NAME="runTemplateMatrixTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab_Prog" RUN_TARGET_NAME="runTemplateMatrixTests" TEST_CLASS="TemplateMatrixSuite" TEST_METHOD="extractColumn" TEST_MODE="SUITE_TEST" />
+    <configuration name="TemplateMatrixSuite.matrixProduct" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_Prog" TARGET_NAME="runTemplateMatrixTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab_Prog" RUN_TARGET_NAME="runTemplateMatrixTests" TEST_CLASS="TemplateMatrixSuite" TEST_METHOD="matrixProduct" TEST_MODE="SUITE_TEST" />
+    <configuration name="TemplateMatrixSuite.transpose" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_Prog" TARGET_NAME="runTemplateMatrixTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab_Prog" RUN_TARGET_NAME="runTemplateMatrixTests" TEST_CLASS="TemplateMatrixSuite" TEST_METHOD="transpose" TEST_MODE="SUITE_TEST" />
+    <configuration name="UtilitiesTests.getValueException" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_Prog" TARGET_NAME="runTemplateMatrixTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab_Prog" RUN_TARGET_NAME="runTemplateMatrixTests" TEST_CLASS="UtilitiesTests" TEST_METHOD="getValueException" TEST_MODE="SUITE_TEST" />
+    <configuration name="UtilitiesTests.productException" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_Prog" TARGET_NAME="runTemplateMatrixTests" RUN_TARGET_PROJECT_NAME="Lab_Prog" RUN_TARGET_NAME="runTemplateMatrixTests" TEST_CLASS="UtilitiesTests" TEST_METHOD="productException" TEST_MODE="SUITE_TEST" />
+    <configuration name="runTemplateMatrixTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_Prog" TARGET_NAME="runTemplateMatrixTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab_Prog" RUN_TARGET_NAME="runTemplateMatrixTests" TEST_MODE="SUITE_TEST" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab_Prog" RUN_TARGET_NAME="Lab_Prog" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="Lab_Prog" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_Prog" TARGET_NAME="Lab_Prog" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab_Prog" RUN_TARGET_NAME="Lab_Prog" />
+    <configuration name="core" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_Prog" TARGET_NAME="core" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab_Prog" RUN_TARGET_NAME="Lab_Prog" />
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_Prog" TARGET_NAME="gtest" CONFIG_NAME="Debug" />
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_Prog" TARGET_NAME="gtest_main" CONFIG_NAME="Debug" />
+    <configuration name="runTemplateMatrixTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_Prog" TARGET_NAME="runTemplateMatrixTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab_Prog" RUN_TARGET_NAME="runTemplateMatrixTests" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.core" />
+      <item itemvalue="Application.Lab_Prog" />
+      <item itemvalue="Application.runTemplateMatrixTests" />
+      <item itemvalue="Google Test.runTemplateMatrixTests" />
+      <item itemvalue="Application.gtest" />
+      <item itemvalue="Application.gtest_main" />
+      <item itemvalue="Google Test.TemplateMatrixSuite.extractColumn" />
+      <item itemvalue="Google Test.TemplateMatrixSuite.transpose" />
+      <item itemvalue="Google Test.TemplateMatrixSuite.matrixProduct" />
+      <item itemvalue="Google Test.UtilitiesTests.getValueException" />
+      <item itemvalue="Google Test.UtilitiesTests.productException" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.UtilitiesTests.productException" />
+        <item itemvalue="Google Test.UtilitiesTests.getValueException" />
+        <item itemvalue="Google Test.TemplateMatrixSuite.transpose" />
+        <item itemvalue="Google Test.TemplateMatrixSuite.matrixProduct" />
+        <item itemvalue="Google Test.TemplateMatrixSuite.extractColumn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bce5f54a-85f4-42ac-bc2f-f81dff481b43" name="Default" comment="" />
+      <created>1540051289238</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540051289238</updated>
+      <workItem from="1540051290950" duration="1685000" />
+      <workItem from="1540053294047" duration="1872000" />
+      <workItem from="1540216582162" duration="7671000" />
+      <workItem from="1540647660394" duration="666000" />
+      <workItem from="1540648368013" duration="2572000" />
+      <workItem from="1540738712581" duration="8640000" />
+      <workItem from="1550223948413" duration="3134000" />
+      <workItem from="1550229338083" duration="1239000" />
+      <workItem from="1550238748015" duration="6868000" />
+      <workItem from="1550567404169" duration="8201000" />
+      <workItem from="1550743187632" duration="12000" />
+      <workItem from="1550743428525" duration="3508000" />
+      <workItem from="1550746979475" duration="1067000" />
+      <workItem from="1550842239273" duration="93000" />
+      <workItem from="1550842557916" duration="3505000" />
+      <workItem from="1550846094117" duration="1540000" />
+      <workItem from="1550850659968" duration="3594000" />
+      <workItem from="1550858815583" duration="2078000" />
+      <workItem from="1550867972669" duration="948000" />
+      <workItem from="1550909543990" duration="8297000" />
+      <workItem from="1551280124375" duration="3746000" />
+      <workItem from="1551284136400" duration="817000" />
+      <workItem from="1551372049718" duration="1439000" />
+      <workItem from="1551515533136" duration="8430000" />
+      <workItem from="1552569636331" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UtilitiesTests_getValueException - 2019.03.02 at 11h 31m 44s.xml">
+      <configuration name="UtilitiesTests.getValueException" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UtilitiesTests_getValueException - 2019.03.02 at 11h 39m 16s.xml">
+      <configuration name="UtilitiesTests.getValueException" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UtilitiesTests_getValueException - 2019.03.02 at 11h 43m 38s.xml">
+      <configuration name="UtilitiesTests.getValueException" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UtilitiesTests_getValueException - 2019.03.02 at 11h 43m 46s.xml">
+      <configuration name="UtilitiesTests.getValueException" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UtilitiesTests_getValueException - 2019.03.02 at 11h 44m 43s.xml">
+      <configuration name="UtilitiesTests.getValueException" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UtilitiesTests_getValueException - 2019.03.02 at 11h 45m 49s.xml">
+      <configuration name="UtilitiesTests.getValueException" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UtilitiesTests_getValueException - 2019.03.02 at 11h 50m 35s.xml">
+      <configuration name="UtilitiesTests.getValueException" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UtilitiesTests_getValueException - 2019.03.02 at 12h 03m 03s.xml">
+      <configuration name="UtilitiesTests.getValueException" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UtilitiesTests_getValueException - 2019.03.02 at 12h 03m 39s.xml">
+      <configuration name="UtilitiesTests.getValueException" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UtilitiesTests_productException - 2019.03.02 at 12h 06m 15s.xml">
+      <configuration name="UtilitiesTests.productException" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="81675000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80904526" visible="true" weight="0.22496025" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49920508" weight="0.31484795" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.34020618" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007949" side_tool="true" weight="0.47763863" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49882904" weight="0.45796064" />
+      <window_info id="Structure" order="1" sideWeight="0.50133336" side_tool="true" weight="0.18124007" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291592" />
+      <window_info id="Favorites" order="2" sideWeight="0.19095477" side_tool="true" weight="0.17798595" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4686941" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3281787" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49882904" weight="0.6207513" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.34020618" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80904526" weight="0.35675254" />
+      <window_info id="Structure" order="1" sideWeight="0.50133336" side_tool="true" weight="0.18124007" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3161512" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49882904" visible="true" weight="0.45876288" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4686941" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291592" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50117093" side_tool="true" weight="0.45876288" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3281787" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49882904" weight="0.3161512" />
+      <window_info id="Favorites" order="2" sideWeight="0.19095477" side_tool="true" weight="0.17798595" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="44" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="copy.matrix" />
+        <watch expression="original.matrix" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>original.matrix</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>copy.matrix</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>right.matrix-&gt;*matrix</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Matrix.h" />
+    <entry file="file://$PROJECT_DIR$/Matrix.cpp" />
+    <entry file="file://$PROJECT_DIR$/TemplateMatrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matrix.h" />
+    <entry file="file://$PROJECT_DIR$/TemplateMatrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2820">
+          <caret line="141" column="73" selection-start-line="141" selection-start-column="73" selection-end-line="141" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matrix.cpp" />
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matrix.h" />
+    <entry file="file://$PROJECT_DIR$/Matrix.cpp" />
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matrix.h" />
+    <entry file="file://$PROJECT_DIR$/Matrix.cpp" />
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matrix.h" />
+    <entry file="file://$PROJECT_DIR$/Matrix.cpp" />
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matrix.h" />
+    <entry file="file://$PROJECT_DIR$/Matrix.cpp" />
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matrix.h" />
+    <entry file="file://$PROJECT_DIR$/Matrix.cpp" />
+    <entry file="file://$USER_HOME$/Desktop/WebCAT04/RGBPixel.cpp" />
+    <entry file="file://$USER_HOME$/Desktop/WebCAT04/BitmapImage.cpp" />
+    <entry file="file://$USER_HOME$/Desktop/WebCAT04/BitmapImage.h" />
+    <entry file="file://$PROJECT_DIR$/TemplateMatrix.cpp" />
+    <entry file="file://$PROJECT_DIR$/Matrix.h" />
+    <entry file="file://$PROJECT_DIR$/Matrix.cpp" />
+    <entry file="file://$PROJECT_DIR$/test/lib/googletest/googletest/cmake/internal_utils.cmake" />
+    <entry file="file://$APPLICATION_HOME_DIR$/bin/cmake/share/cmake-3.10/Modules/WriteBasicConfigVersionFile.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/googletest/cmake/internal_utils.cmake" />
+    <entry file="file://$PROJECT_DIR$/../unit_testing_self_contained/test/runAllTests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/googletest/test/googletest-param-test-test.cc" />
+    <entry file="file://$PROJECT_DIR$/test/lib/googletest/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/runAllTests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Matrix/Matrix.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/googletest/include/gtest/gtest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="1486" selection-start-line="1486" selection-end-line="1486" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/googletest/src/gtest-port.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="235" selection-start-line="235" selection-end-line="235" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/googletest/src/gtest-internal-inl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="919" selection-start-line="919" selection-end-line="919" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/googletest/include/gtest/internal/gtest-internal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="485" selection-start-line="485" selection-end-line="485" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/googletest/include/gtest/internal/gtest-port.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="1190" selection-start-line="1190" selection-end-line="1190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lib/googletest/src/gtest.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="2565" selection-start-line="2565" selection-end-line="2565" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TemplateMatrixFixture.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TemplateMatrixTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemplateMatrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#69#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
