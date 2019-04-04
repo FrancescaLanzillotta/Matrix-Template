@@ -3,10 +3,11 @@
 
 #include <ostream>
 #include <exception>
+
 template<typename T>
 class TemplateMatrix {
 public:
-    explicit TemplateMatrix(int r=2, int c=2, T defaultValue = 0) : rows(r), columns(c) {   //default matrix is 2x2
+    explicit TemplateMatrix(int r = 2, int c = 2, T defaultValue = 0) : rows(r), columns(c) {   //default matrix is 2x2
         if (rows <= 0)                                                      //checks if input is valid
             rows = 1;
         if (columns <= 0)                                                   //checks valid inputs
@@ -28,7 +29,7 @@ public:
         delete[] matrix;
     }
 
-    TemplateMatrix& operator=(const TemplateMatrix &right) {
+    TemplateMatrix &operator=(const TemplateMatrix &right) {
         if (this != &right) {                           //checks if the two matrices are different
             rows = right.rows;
             columns = right.columns;
@@ -46,6 +47,7 @@ public:
         matrix[i * columns + j] = v;                        //sets value at the right index
         return true;
     }
+
     T getValue(int i, int j) const {
         if (i >= rows || j >= columns || i < 0 || j < 0)    //checks if input is valid
             throw (std::range_error("These coordinates are not valid"));
@@ -64,8 +66,8 @@ public:
         return true;
     }
 
-    TemplateMatrix& operator+(const TemplateMatrix &right){
-        TemplateMatrix* sum = new TemplateMatrix(*this);    //creates a copy of the matrix
+    TemplateMatrix &operator+(const TemplateMatrix &right) {
+        TemplateMatrix *sum = new TemplateMatrix(*this);    //creates a copy of the matrix
         if (sameSize(right)) {
             for (int i = 0; i < rows; i++) {
                 for (int j = 0; j < columns; j++) {
@@ -76,9 +78,9 @@ public:
         return *sum;
     }
 
-    TemplateMatrix& operator-(const TemplateMatrix &right){
-        TemplateMatrix* sub = new TemplateMatrix(*this);
-        if(sameSize(right)){
+    TemplateMatrix &operator-(const TemplateMatrix &right) {
+        TemplateMatrix *sub = new TemplateMatrix(*this);
+        if (sameSize(right)) {
             for (int i = 0; i < rows; i++) {
                 for (int j = 0; j < columns; j++) {
                     sub->setValue(i, j, sub->getValue(i, j) - right.getValue(i, j));
@@ -88,16 +90,19 @@ public:
         }
         return *sub;
     }
-    TemplateMatrix& operator+=(const TemplateMatrix &right) {
+
+    TemplateMatrix &operator+=(const TemplateMatrix &right) {
         *this = *this + right;
         return *this;
     }
-    TemplateMatrix& operator-=(const TemplateMatrix &right) {
-        *this = *this-right;
+
+    TemplateMatrix &operator-=(const TemplateMatrix &right) {
+        *this = *this - right;
         return *this;
     }
-    TemplateMatrix& operator*(const TemplateMatrix &right) {
-        TemplateMatrix* product = new TemplateMatrix(rows, right.columns);
+
+    TemplateMatrix &operator*(const TemplateMatrix &right) {
+        TemplateMatrix *product = new TemplateMatrix(rows, right.columns);
         if (columns == right.rows) {                            //checks if the matrices can be multiplied
             for (int i = 0; i < product->rows; i++) {
                 for (int j = 0; j < product->columns; j++) {
@@ -112,14 +117,16 @@ public:
         }
         throw (std::length_error("The matrices are not compatible for multiplication"));
     }
-    TemplateMatrix& operator*(T value){     //each element of the matrix is multiplied by the T value
-        TemplateMatrix* product = new TemplateMatrix(*this);
-        for(int i = 0; i < rows*columns; i++)
-            product->matrix[i] = value*(product->matrix[i]);
+
+    TemplateMatrix &operator*(T value) {     //each element of the matrix is multiplied by the T value
+        TemplateMatrix *product = new TemplateMatrix(*this);
+        for (int i = 0; i < rows * columns; i++)
+            product->matrix[i] = value * (product->matrix[i]);
         return *product;
     }
-    TemplateMatrix& transpose() {
-        TemplateMatrix* tMatrix = new TemplateMatrix(columns, rows);
+
+    TemplateMatrix &transpose() {
+        TemplateMatrix *tMatrix = new TemplateMatrix(columns, rows);
         for (int i = 0; i < columns; i++) {
             for (int j = 0; j < rows; j++)
                 tMatrix->setValue(i, j, getValue(j, i));
@@ -127,20 +134,21 @@ public:
         return *tMatrix;
     }
 
-    TemplateMatrix& extractRow(int rowNumber){
-        TemplateMatrix* row = new TemplateMatrix(1, columns);
-        for(int i=0; i<columns; i++)
-            row->setValue(0,i,getValue(rowNumber,i));
+    TemplateMatrix &extractRow(int rowNumber) {
+        TemplateMatrix *row = new TemplateMatrix(1, columns);
+        for (int i = 0; i < columns; i++)
+            row->setValue(0, i, getValue(rowNumber, i));
         return *row;
 
     }
 
-    TemplateMatrix& extractColumn(int columnNumber){
-        TemplateMatrix* column = new TemplateMatrix(rows, 1);
-        for(int i = 0; i < rows; i++)
-            column->setValue(i,0,getValue(i,columnNumber));
+    TemplateMatrix &extractColumn(int columnNumber) {
+        TemplateMatrix *column = new TemplateMatrix(rows, 1);
+        for (int i = 0; i < rows; i++)
+            column->setValue(i, 0, getValue(i, columnNumber));
         return *column;
     }
+
     int getRows() const {
         return rows;
     }
@@ -148,19 +156,21 @@ public:
     int getColumns() const {
         return columns;
     }
-    template <typename U>
+
+    template<typename U>
     friend std::ostream &operator<<(std::ostream &os, const TemplateMatrix<U> &matrix);
+
 private:
     int rows;
     int columns;
     T *matrix;
 
-    void copy(const TemplateMatrix& original) {
-        for (int i = 0; i < rows*columns; i++)
-            matrix[i]=original.matrix[i];
+    void copy(const TemplateMatrix &original) {
+        for (int i = 0; i < rows * columns; i++)
+            matrix[i] = original.matrix[i];
     }
 
-    bool sameSize(TemplateMatrix const &right){
+    bool sameSize(TemplateMatrix const &right) {
         if (rows == right.rows) {
             if (columns == right.columns)
                 return true;
@@ -170,8 +180,8 @@ private:
 
 };
 
-template <typename T>
-std::ostream &operator<<(std::ostream &os, const TemplateMatrix<T> &matrix){
+template<typename T>
+std::ostream &operator<<(std::ostream &os, const TemplateMatrix<T> &matrix) {
     for (int i = 0; i < matrix.rows; i++) {
         for (int j = 0; j < matrix.columns; j++) {
             os << matrix.getValue(i, j) << "    ";
